@@ -1,5 +1,4 @@
-#include <cstdio>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 const int MAX_X = 1000005;
@@ -8,7 +7,7 @@ int main() {
     int x, k, p;
     scanf("%d %d %d", &x, &k, &p);
     
-    int available[MAX_X];
+    static int available[MAX_X];
     for (int i = 1; i < x; i++) {
         available[i] = k;
     }
