@@ -1,6 +1,15 @@
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+Makefile
 code
 *.o
 *~
+basic_code
+minimal_code
+simple_code
+*_backup.cpp
+*_basic.cpp
+*_seg.cpp
+basic_solution.cpp
+minimal_solution.cpp
